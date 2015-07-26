@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{6b9a8cf0-de27-491a-b0c1-505128de1342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene">
+      <UniqueIdentifier>{367af552-7900-4cc8-b9f0-2161f8b9d0ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\main">
+      <UniqueIdentifier>{4daf7548-f415-4553-89f5-64a3c48af2cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Graphic">
+      <UniqueIdentifier>{aefdca9a-e42e-4094-9f61-918f126358f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Input">
+      <UniqueIdentifier>{57a0e7b9-60cc-4f0f-b74a-2ff28fa2b0c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene\Game">
+      <UniqueIdentifier>{eaa80745-e247-464b-84fc-4abcfefeee98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene\CharSelect">
+      <UniqueIdentifier>{ee2462d8-944c-4943-956d-7f34675b9cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene\Logo">
+      <UniqueIdentifier>{b2974a15-6669-4c62-8496-e3abb77aa820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene\Title">
+      <UniqueIdentifier>{e9cdd626-62d6-467e-8509-04c02a920248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\read_file">
+      <UniqueIdentifier>{a9c16ac8-9eb4-4efc-b0d2-98787997c68a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio">
+      <UniqueIdentifier>{fa0cb225-a078-422a-890a-b96e81fdb1bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene\Game\result">
+      <UniqueIdentifier>{1912dba2-15b4-4e27-8be4-89de6854fd59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene\Game\words">
+      <UniqueIdentifier>{5d5bc957-3f55-41cb-9f90-3b524407ba8e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Lib.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic.h">
+      <Filter>src\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\JoyStick.h">
+      <Filter>src\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input.h">
+      <Filter>src\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game.h">
+      <Filter>src\Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\puzzle.h">
+      <Filter>src\Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\title_object.h">
+      <Filter>src\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="src\title.h">
+      <Filter>src\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logo.h">
+      <Filter>src\Scene\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\select.h">
+      <Filter>src\Scene\CharSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\main.h">
+      <Filter>src\main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\read_file.h">
+      <Filter>src\read_file</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Audio.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Result.h">
+      <Filter>src\Scene\Game\result</Filter>
+    </ClInclude>
+    <ClInclude Include="src\words.h">
+      <Filter>src\Scene\Game\words</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\scene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic.cpp">
+      <Filter>src\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src\main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\JoyStick.cpp">
+      <Filter>src\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input.cpp">
+      <Filter>src\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game.cpp">
+      <Filter>src\Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\puzzle.cpp">
+      <Filter>src\Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\title.cpp">
+      <Filter>src\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="src\title_object.cpp">
+      <Filter>src\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logo.cpp">
+      <Filter>src\Scene\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\select.cpp">
+      <Filter>src\Scene\CharSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\read_file.cpp">
+      <Filter>src\read_file</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Audio.cpp">
+      <Filter>src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Result.cpp">
+      <Filter>src\Scene\Game\result</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
